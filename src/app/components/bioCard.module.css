@@ -1,0 +1,63 @@
+.card {
+    width: 500px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    font-size: 28px;
+    color: #000000;
+    font-weight: bold;
+    font-family: sans-serif, Arial;
+    text-align: left;
+}
+
+.separator {
+    height: 1.5px;
+    background-color: #000000;
+    margin-bottom: 10px 0;
+    border: 1px solid black;
+}
+
+.details {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    margin-bottom: 3px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.labels
+{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    margin-bottom: 3px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    text-align: right;  
+}
+
+.detailsSection {
+    background-color: #572a9f;  /* Light grey background for the details section */
+    padding: 15px;  /* Padding around the text */
+    border-radius: 5px;  /* Rounded corners for the details box */
+    margin-top: 20px;  /* Space between the image and the details section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid black; /* 'solid' is the border-style */
+}
